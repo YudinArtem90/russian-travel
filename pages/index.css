@@ -13,5 +13,8 @@
 @import '../blocks/photo-grid/photo-grid.css';
 @import '../blocks/places/places.css';
 @import '../blocks/video/video.css';
-@import '../blocks/section_width_m/section_width_m.css';
+@import '../blocks/intro_dop_margin/intro_dop_margin.css';
+
+@import '../blocks/lead__width/lead__width.css';
+@import '../blocks/intro__margin/intro__margin.css';
 

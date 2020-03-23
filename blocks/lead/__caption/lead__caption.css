@@ -9,3 +9,15 @@
     text-transform: uppercase;
     margin: 0;
 }
+
+@media (min-width: 374px) and (max-width: 767px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
+}
