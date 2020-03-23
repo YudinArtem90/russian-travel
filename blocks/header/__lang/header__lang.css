@@ -20,3 +20,10 @@
         margin-right: 16px;
     }
 }
+
+@media (max-width: 375px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

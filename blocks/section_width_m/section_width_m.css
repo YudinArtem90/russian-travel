@@ -1,0 +1,22 @@
+.section_width_m{
+    max-width: 984px;
+    margin: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .section_width_m{
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    .section_width_m{
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .section_width_m{
+        max-width: 375px;
+    }
+}
