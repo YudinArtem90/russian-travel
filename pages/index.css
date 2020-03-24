@@ -16,6 +16,9 @@
 @import '../blocks/intro_dop_margin/intro_dop_margin.css';
 @import '../blocks/place/place.css';
 
+@import '../blocks/content-subtitle/content-subtitle.css';
+@import '../blocks/content-title/content-title.css';
+
 @import '../blocks/places_container/places_container.css';
 
 
