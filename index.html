@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Git</title>
 </head>
-<body>
+<body class="body">
     
     <div class="page">
         <header class="header">
@@ -126,7 +126,7 @@
                 <h2 class="video__content-title content-title">В глубины Земли и в дальний космос</h2>
                 <p class="video__content-subtitle content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
                 <div class="video__container container">
-                    <div class="video__container__item video__item">
+                    <a href="" title="" class="video__container__item video__item">
                         <div class="video__item-info">
                             <img class="video__icon_play" src="./images/container_video/icon_play.png" alt="Иконка запуска видио">
                             <p class="video__duration">6:30</p>
@@ -136,8 +136,8 @@
                         <div class="video__item-image-container">
                             <img class="video__item-image" src="./images/container_video/Kamchatka.jpg" alt="Камчатка">
                         </div>
-                    </div>
-                    <div class="video__container__item video__item">
+                    </a>
+                    <a href="" title="" class="video__container__item video__item">
                         <div class="video__item-info">
                             <img class="video__icon_play" src="./images/container_video/icon_play.png" alt="Иконка запуска видио">
                             <p class="video__duration">24:45</p>
@@ -147,7 +147,7 @@
                         <div class="video__item-image-container">
                             <img class="video__item-image" src="./images/container_video/Observatory.jpg" alt="Обсерватория">
                         </div>
-                    </div>
+                    </a>
                 </div>
             </section>
     
@@ -157,19 +157,19 @@
                 <div class="comments__container container">
                     <div class="comment">
                         <img class="comments__image" src="./images/comments/Luagushkin.png" alt="Виктор Лягушкин">
-                        <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+                        <blockquote class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
                         <span class="comments__author">Виктор Лягушкин</span>
                     </div>
 
                     <div class="comment">
                         <img class="comments__image" src="./images/comments/Hafizov.jpg" alt="Иван Хафизов">
-                        <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                        <blockquote class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
                         <span class="comments__author">Иван Хафизов</span>
                     </div>
     
                     <div class="comment">
                         <img class="comments__image" src="./images/comments/Maksimishin.jpg" alt="Сергей Максимишин">
-                        <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+                        <blockquote class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
                         <span class="comments__author">Сергей Максимишин</span>
                     </div>
                 </div>
@@ -183,8 +183,26 @@
                 </div>
             </section>
         </main>
+
         <footer class="footer">
-    
+            <ul class="footer__ul">
+                <li>
+                    <a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a>
+                </li>
+                <li>
+                    <a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a>
+                </li>
+                <li>
+                    <a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
+                </li>
+                <li>
+                    <a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
+                </li>
+                <li>
+                    <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                </li>
+            </ul>
+            <p class="footer__copyright">&copy; 2020. Артём</p>
         </footer>    
     </div>
     

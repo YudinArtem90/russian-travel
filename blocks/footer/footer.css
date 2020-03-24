@@ -1,3 +1,9 @@
+@import './__copyright/footer__copyright.css';
+@import './__link/footer__link.css';
+@import './__ul/footer__ul.css';
+
 .footer{
-    display: flex;
+    display: grid;
+    color: #FFF;
+    grid-template-columns: repeat(2, 1fr);
 }
