@@ -1,0 +1,12 @@
+@import './__cover-bg/cover__cover-bg.css';
+@import './__subtitle/cover__subtitle.css';
+@import './__title/cover__title.css';
+@import './__grid-container/cover__grid-container.css';
+
+.cover{
+    display: grid;
+    /* grid-template-rows: 3fr 1fr 1fr; */
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(320px, 1fr);
+    max-width: 1184px;
+}
