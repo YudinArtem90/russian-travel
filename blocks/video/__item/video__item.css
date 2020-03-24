@@ -1,0 +1,5 @@
+.video__item{
+    display: grid;
+    /* max-width: 583px; */
+    grid-template-columns: repeat(1, minmax( 288px, 583px));
+}
