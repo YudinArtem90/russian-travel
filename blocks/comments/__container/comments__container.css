@@ -1,0 +1,7 @@
+.comments__container{
+    /* min-width: 926px; */
+    max-width: 1184px;
+    /* grid-template-rows: repeat(3, 200px); */
+    /* grid-template-columns: repeat(auto-fill , minmax(288px,382px)); */
+}
+
