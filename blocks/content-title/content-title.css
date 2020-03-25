@@ -3,8 +3,30 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
-    line-height: 78px;
     text-align: center;
-    max-width: 800px;
+    margin-top: 0;
+}
+
+@media (min-width: 1024px){
+    .content-title{
+        font-size: 72px;
+        line-height: 78px;
+        max-width: 800px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .content-title{
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 767px){
+    .content-title{
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

@@ -1,3 +1,7 @@
+.width-standart{
+    margin: auto;
+}
+
 @media (min-width: 1280px){
     .width-standart{
         max-width: 984px;

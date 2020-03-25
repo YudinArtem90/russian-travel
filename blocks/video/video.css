@@ -8,6 +8,7 @@
 @import './__duration/video__duration.css';
 @import './__subitle/video__subitle.css';
 @import './__title/video__title.css';
+@import './__icon_play/video__icon_play.css';
 
 .video{
     display: grid;

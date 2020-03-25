@@ -2,7 +2,28 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 39px;
-    margin: 12px 0 18px;
+}
+
+@media (min-width: 1024px){
+    .video__title{
+        font-size: 36px;
+        line-height: 39px;
+        margin: 12px 0 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .video__title{
+        font-size: 24px;
+        line-height: 26px;
+        margin: 8px 0 12px;
+    }
+}
+
+@media (max-width: 767px){
+    .video__title{
+        font-size: 24px;
+        line-height: 26px;
+        margin: 8px 0 2px;
+    }
 }
