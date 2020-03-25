@@ -27,5 +27,6 @@
 /* миксы */
 @import '../blocks/width-standart/width-standart.css';
 @import '../blocks/width-standart-plus/width-standart-plus.css';
+@import '../blocks/margin_places/margin_places.css';
 @import '../blocks/header-margin/header-margin.css';
 

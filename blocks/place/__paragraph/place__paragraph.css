@@ -10,3 +10,9 @@
 .place__paragraph:nth-child(1){
     margin-bottom: 36px;
 }
+
+@media (max-width: 375px){
+    .place__paragraph:nth-child(1){
+        margin-top: 24px;
+    }
+}
