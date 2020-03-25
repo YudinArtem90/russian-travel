@@ -1,0 +1,29 @@
+@media (min-width: 1280px){
+    .width-standart{
+        max-width: 984px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .width-standart{
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .width-standart{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .width-standart{
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 374px){
+    .width-standart{
+        max-width: 288px;
+    }
+}

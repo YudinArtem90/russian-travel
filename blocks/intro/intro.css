@@ -7,15 +7,3 @@
 .intro{
     margin: auto;
 }
-
-@media (min-width: 376px) and (max-width: 768px) {
-    .intro {
-        margin: 0 24px;
-    }
-}
-
-@media (max-width: 375px) {
-    .intro {
-        margin: 0 16px;
-    }
-}

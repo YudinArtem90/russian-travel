@@ -10,3 +10,21 @@
     margin: auto;
 }
 
+@media (min-width: 1280px){
+    .lead{
+        max-width: 984px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .lead{
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px){
+    .lead{
+        width: 100%;
+    }
+}
+

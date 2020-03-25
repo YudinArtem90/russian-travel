@@ -1,0 +1,11 @@
+@media (min-width: 1024px){
+    .width-standart-plus{
+        max-width: 1184px;
+    }
+}
+
+@media (max-width: 1023px){
+    .width-standart-plus{
+        width: 100%;
+    }
+}
