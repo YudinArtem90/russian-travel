@@ -1,5 +1,16 @@
 .header__logo{
-    height: 100%;
     display: flex;
     margin: auto auto 0 0;
+}
+
+@media (min-width: 376px) {
+    .header__logo{
+        max-width: 177px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__logo{
+        max-width: 142px;
+    }
 }
