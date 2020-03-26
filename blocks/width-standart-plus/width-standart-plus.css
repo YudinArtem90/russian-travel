@@ -1,10 +1,29 @@
-@media (min-width: 1024px){
+/* .width-standart-plus{
+    margin: auto;
+} */
+
+@media (min-width: 1280px){
     .width-standart-plus{
         max-width: 1184px;
+        margin: auto;
     }
 }
 
-@media (max-width: 1023px){
+@media (min-width: 769px) and (max-width: 1279px){
+    .width-standart-plus{
+        max-width: 929px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px){
+    .width-standart-plus{
+        max-width: 929px;
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 375px){
     .width-standart-plus{
         width: 100%;
     }

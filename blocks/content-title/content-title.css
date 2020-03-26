@@ -30,3 +30,15 @@
         line-height: 35px;
     }
 }
+
+@media (min-width: 319px) and (max-width: 767px){
+    .content-title{
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 320px){
+    .content-title{
+        max-width: 288px;
+    }
+}

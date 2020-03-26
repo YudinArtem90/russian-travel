@@ -1,21 +1,16 @@
 .video__item-info{
     grid-column: 1/2;
     grid-row: 1/2;
-    z-index: 2;
+    z-index: 3;
     display: grid;
     grid-template-rows: 3fr auto auto auto;
     grid-template-columns: minmax( 256px, 322px);
     padding: 30px;
-
-    /* background: #000000;
-    opacity: 0.5;
-    border-radius: 5px;
-    cursor: pointer; */
 }
 
-/* .video__item-info:hover{
+.video__item-info:hover{
     background: #000000;
     opacity: 0.5;
     border-radius: 5px;
     cursor: pointer;
-} */
+}

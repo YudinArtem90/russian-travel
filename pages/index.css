@@ -5,7 +5,6 @@
 @import '../blocks/page/page.css';
 @import '../blocks/header/header.css';
 @import '../blocks/main/main.css';
-@import '../blocks/comments/comments.css';
 @import '../blocks/cover/cover.css';
 @import '../blocks/footer/footer.css';
 @import '../blocks/intro/intro.css';
@@ -19,6 +18,7 @@
 @import '../blocks/content-subtitle/content-subtitle.css';
 @import '../blocks/content-title/content-title.css';
 
+@import '../blocks/comments/comments.css';
 @import '../blocks/comment/comment.css';
 @import '../blocks/places_container/places_container.css';
 

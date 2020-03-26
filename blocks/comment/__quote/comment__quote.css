@@ -1,0 +1,41 @@
+.comment__quote{
+    max-width: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media (min-width: 1024px){
+    .comment__quote{
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 0 24px;
+    }
+}
+
+@media (max-width: 1023px){
+    .comment__quote{
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0 0 47px;
+    }
+}
+
+@media (max-width: 768px){
+    .comment__quote{
+        justify-self: center;
+        grid-row: 3/3;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 767px){
+    .comment__quote{
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 320px){
+    .comment__quote{
+        max-width: 288px;
+    }
+}

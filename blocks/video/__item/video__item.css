@@ -1,15 +1,7 @@
 .video__item{
     display: grid;
-    /* max-width: 583px; */
     grid-template-columns: repeat(1, minmax( 288px, 583px));
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
-}
-
-
-.video__item:hover{
-    background: #000000;
-    opacity: 0.7;
-    border-radius: 5px;
 }
