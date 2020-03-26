@@ -1,5 +1,6 @@
 @import './__lang/header__lang.css';
-@import './__lang/_active/header__lang_active.css';
+@import './__language-page/header__language-page.css';
+@import './__language-page/_active/language-page_active.css';
 @import './__logo/header__logo.css';
 @import './__href/header__href.css';
 

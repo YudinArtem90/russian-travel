@@ -12,14 +12,26 @@
         font-size: 96px;
         line-height: 93px;
         max-width: 782px;
+        transition: 1s linear;
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 767px) {
+    .lead__title {
+        margin: 48px 16px 8px;
+        font-size: 50px;
+        line-height: 55px;
+        max-width: 500px;
+        transition: 1s linear;
+    }
+}
+
+@media (max-width: 375px) {
     .lead__title {
         margin: 48px 16px 8px;
         font-size: 40px;
         line-height: 44px;
         max-width: 288px;
+        transition: 1s linear;
     }
 }

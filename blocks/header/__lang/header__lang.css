@@ -4,9 +4,7 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    color: #FFF;
     list-style-type: none;
-    cursor: pointer;
 }
 
 @media (min-width: 376px) {
