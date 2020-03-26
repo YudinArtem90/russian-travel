@@ -1,5 +1,6 @@
 .width-standart{
     margin: auto;
+    transition: 1s linear;
 }
 
 @media (min-width: 1280px){

@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-@media (max-width: 375px){
+@media (max-width: 767px){
     .place__website{
         display: none;
     }

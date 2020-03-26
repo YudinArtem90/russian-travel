@@ -7,7 +7,6 @@
 
 .place{
     display: grid;
-    margin: auto;
 }
 
 @media (min-width: 1280px){
@@ -28,7 +27,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 376px) and (max-width: 1023px){
     .place:not(:first-child){
         margin-top: 81px;
     }
@@ -37,17 +36,61 @@
     }
 }
 
-@media (min-width: 376px){
+@media (min-width: 768px){
     .place {
-        grid-template-columns: minmax( 288px, 484px) minmax( 352px, 484px);
+        grid-template-columns: auto minmax( 352px, 484px);
     }
 }
 
+
+@media (min-width: 376px) and (max-width: 767px){
+    .place {
+        grid-template-columns: minmax( 288px, 560px);
+        justify-content: center;
+        row-gap: 24px;
+    }
+}
+
+
 @media (max-width: 375px){
     .place {
-        grid-template-columns: minmax( 288px, 343px);
+        grid-template-columns: minmax( 288px, 375px);
     }
     .place:not(:first-child){
         margin-top: 48px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media (min-width: 1280px){
+    .place{
+        max-width: 984px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .place{
+        max-width: 928px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 1023px){
+    .place{
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+@media (min-width:321px) and (max-width: 375px){
+    .place{
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px){
+    .place{
+        width: 100%;
     }
 }
