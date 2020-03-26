@@ -2,11 +2,25 @@
 @import './__subtitle/cover__subtitle.css';
 @import './__title/cover__title.css';
 @import './__grid-container/cover__grid-container.css';
+@import './__container/cover__container.css';
 
 .cover{
-    display: grid;
+    /* display: grid;
     /* grid-template-rows: 3fr 1fr 1fr; */
-    grid-template-rows: 1fr;
+    /* grid-template-rows: 1fr;
     grid-template-columns: minmax(320px, 1fr);
-    max-width: 1184px;
+    max-width: 1184px;  */
+    /* max-width: 1184px; */
 }
+
+@media (min-width: 1025px){
+    .cover{
+        max-width: 1184px;
+    }
+}
+
+/* @media (max-width: 1024px){
+    .cover{
+        width: 100%;
+    }
+} */

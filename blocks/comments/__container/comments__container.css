@@ -6,7 +6,7 @@
 
 @media (min-width: 768px){
     .comments__container{
-        margin: 0 auto 102px;
+        margin: 0 0 102px;
         grid-template-columns: repeat(auto-fill , minmax(288px,1fr));
     }
 }
