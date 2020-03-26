@@ -5,3 +5,8 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.video__item:hover{
+    opacity: .4;
+    transition: 1s linear;
+}

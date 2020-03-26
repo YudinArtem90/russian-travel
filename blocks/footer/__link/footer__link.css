@@ -5,7 +5,32 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 41px;
     margin-right: 18px;
+}
+
+.footer__link:hover{
+    cursor: pointer;
+    opacity: .4;
+    transition: 1s linear;
+}
+
+@media (min-width: 1024px){
+    .footer__link{
+        font-size: 24px;
+        line-height: 41px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .footer__link{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 767px){
+    .footer__link{
+        font-size: 24px;
+        line-height: 41px;
+    }
 }

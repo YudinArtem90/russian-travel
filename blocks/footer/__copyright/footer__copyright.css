@@ -6,3 +6,25 @@
     line-height: 20px;
     text-align: right;
 }
+
+@media (min-width: 769px) and (max-width: 1439px){
+    .footer__copyright{
+        margin: 0 48px 48px 0;
+        align-self: center;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 768px){
+    .footer__copyright{
+        margin: 0 24px 24px 0;
+        align-self: center;
+    }
+}
+
+
+@media (max-width: 375px){
+    .footer__copyright{
+        justify-self: baseline;
+        margin: 48px 0 0 16px;
+    }
+}
