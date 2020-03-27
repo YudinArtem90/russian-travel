@@ -7,7 +7,7 @@
     color: #FFF;
 }
 
-@media (min-width: 376px){
+@media (min-width: 768px){
     .footer{
         font-size: 24px;
         line-height: 41px;
@@ -15,10 +15,10 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 767px){
     .footer{
         font-size: 24px;
         line-height: 41px;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
     }
 }
