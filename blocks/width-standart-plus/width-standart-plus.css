@@ -1,7 +1,3 @@
-/* .width-standart-plus{
-    margin: auto;
-} */
-
 @media (min-width: 1280px){
     .width-standart-plus{
         max-width: 1184px;

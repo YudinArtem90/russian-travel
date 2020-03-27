@@ -4,7 +4,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    
+    border-bottom: 1px solid #FFF; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 1px; /* Расстояние от текста до линии */
+    
     cursor: pointer;
     color: #FFF;;
 }
