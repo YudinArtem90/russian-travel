@@ -2,12 +2,47 @@
     display: grid;
     color: #FFF;
     text-decoration: none;
+    background-image: url('../../../images/cover/cover.jpg');
+    background-size: cover;
 }
 
 .cover__container:hover{
-    cursor: pointer;
-    opacity: .4;
-    transition: 1s linear;
+    background-image: linear-gradient(
+            rgba(0, 0, 0, .8),
+            rgba(0, 0, 0, .8)
+            ),
+            url('../../../images/cover/cover.jpg')
+}
+
+
+@media (min-width: 1280px){
+    .cover__container{
+        height: 594px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .cover__container{
+        height: 562px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .cover__container{
+        height: 500px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px){
+    .cover__container{
+        height: 272px;
+    }
+}
+
+@media (max-width: 374px){
+    .cover__container{
+        height: 216px;
+    }
 }
 
 @media (min-width: 1024px){

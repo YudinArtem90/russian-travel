@@ -4,9 +4,20 @@
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
+
+
+    /* width: 583px;
+    height: 323px;
+    background-image: url('../../../images/container_video/Kamchatka.jpg');
+    background-size: cover; */
 }
 
 .video__item:hover{
-    opacity: .4;
-    transition: 1s linear;
+    /* background-image: linear-gradient(
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url('../../../images/container_video/Kamchatka.jpg'); */
+    /* opacity: .4;
+    transition: 1s linear; */
 }
