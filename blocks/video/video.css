@@ -1,14 +1,16 @@
+@import './__item/_kamchata/video__item_kamchata.css';
+@import './__item/_observatovia/video__item_observatovia.css';
+
 @import './__container/video__container.css';
 @import './__content-subtitle/video__content-subtitle.css';
 @import './__content-title/video__content-title.css';
 @import './__item/video__item.css';
-@import './__item-image/video__item-image.css';
-@import './__item-image-container/video__item-image-container.css';
 @import './__item-info/video__item-info.css';
 @import './__duration/video__duration.css';
 @import './__subitle/video__subitle.css';
 @import './__title/video__title.css';
 @import './__icon_play/video__icon_play.css';
+
 
 .video{
     display: grid;

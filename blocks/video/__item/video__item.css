@@ -4,20 +4,17 @@
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
-
-
-    /* width: 583px;
-    height: 323px;
-    background-image: url('../../../images/container_video/Kamchatka.jpg');
-    background-size: cover; */
+    width: 100%;
 }
 
-.video__item:hover{
-    /* background-image: linear-gradient(
-          rgba(0, 0, 0, 0.3),
-          rgba(0, 0, 0, 0.3)
-        ),
-        url('../../../images/container_video/Kamchatka.jpg'); */
-    /* opacity: .4;
-    transition: 1s linear; */
+@media (min-width: 375px) and (max-width: 424px){
+    .video__item{
+        height: 200px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 768px){
+    .video__item{
+        height: 300px;
+    }
 }

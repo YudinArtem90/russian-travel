@@ -5,16 +5,7 @@
     display: grid;
     grid-template-rows: 3fr auto auto auto;
     grid-template-columns: minmax( 256px, 583px);
-    transition: 1s linear;
 }
-
-.video__item-info:hover{
-    background: #000000;
-    opacity: 0.5;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 
 @media (min-width: 1025px){
     .video__item-info{

@@ -1,0 +1,12 @@
+.video__item_observatovia{
+    background-image: url('../../../../images/container_video/Observatory.jpg');
+    background-size: cover;
+}
+
+.video__item_observatovia:hover{
+    background-image: linear-gradient(
+          rgba(0, 0, 0, .8),
+          rgba(0, 0, 0, .8)
+        ),
+        url('../../../../images/container_video/Observatory.jpg');
+}
