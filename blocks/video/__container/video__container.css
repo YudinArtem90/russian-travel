@@ -28,7 +28,6 @@
 
 @media (max-width: 1023px){
     .video__container{
-        /* margin: 0 16px; */
         column-gap: 16px;
         row-gap: 8px;
         justify-content: center;

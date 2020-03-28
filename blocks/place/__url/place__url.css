@@ -6,9 +6,9 @@
     line-height: 30px;
     text-decoration-line: none;
     
-    border-bottom: 1px solid #FFF; /* Параметры линии под текстом */
-    font-weight: normal; /* Убираем жирное начертание */
-    padding-bottom: 1px; /* Расстояние от текста до линии */
+    border-bottom: 1px solid #FFF; 
+    font-weight: normal; 
+    padding-bottom: 1px; 
     
     cursor: pointer;
     color: #FFF;;

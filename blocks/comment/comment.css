@@ -3,17 +3,8 @@
 @import './__quote/comment__quote.css';
 
 .comment{
-    /* width: 100%; */
     height: 100%;
-    /* justify-self: center;
-    align-self: center; */
     display: grid;
-    /* grid-template-rows: 1fr 1fr 21px; */
-    /* grid-template-rows: repeat(3, minmax(21px, 1fr)); */
-    /* grid-template-rows: repeat(3, auto); */
-    /* grid-template-rows: repeat(40, auto);
-    grid-template-rows: 40px auto auto; */
-    /* grid-template-rows: 138px auto 1fr; */
 }
 
 @media (min-width: 769px){

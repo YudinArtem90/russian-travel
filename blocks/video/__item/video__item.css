@@ -7,7 +7,19 @@
     width: 100%;
 }
 
-@media (min-width: 375px) and (max-width: 424px){
+@media (min-width: 1280px){
+    .video__item{
+        height: 323px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1270px){
+    .video__item{
+        height: 288px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1023px){
     .video__item{
         height: 200px;
     }
