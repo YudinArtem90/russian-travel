@@ -20,3 +20,27 @@
         max-width: 288px;
     }
 }
+
+@media (min-width: 1280px){
+    .lead__subtitle {
+        margin: 48px 0 78px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .lead__subtitle {
+        margin: 46px 0 65px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .lead__subtitle {
+        margin: 48px 0 78px
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__subtitle {
+        margin: 8px 0 31px
+    }
+}

@@ -5,8 +5,8 @@
 
 .video__item_kamchata:hover{
     background-image: linear-gradient(
-          rgba(0, 0, 0, .8),
-          rgba(0, 0, 0, .8)
+          rgba(0, 0, 0, .5),
+          rgba(0, 0, 0, .5)
         ),
         url('../../../../images/container_video/Kamchatka.jpg');
 }

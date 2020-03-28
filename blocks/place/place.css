@@ -38,7 +38,7 @@
 
 @media (min-width: 768px){
     .place {
-        grid-template-columns: auto minmax( 352px, 484px);
+        grid-template-columns:  minmax( 340px, 460px) minmax( 352px, 484px);
     }
 }
 
@@ -77,7 +77,21 @@
     }
 }
 
-@media (min-width: 376px) and (max-width: 1023px){
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .place{
+        max-width: 850px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+    .place{
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 767px){
     .place{
         max-width: 720px;
         margin: auto;

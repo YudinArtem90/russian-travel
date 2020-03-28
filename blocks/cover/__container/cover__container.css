@@ -8,8 +8,8 @@
 
 .cover__container:hover{
     background-image: linear-gradient(
-            rgba(0, 0, 0, .8),
-            rgba(0, 0, 0, .8)
+            rgba(0, 0, 0, .3),
+            rgba(0, 0, 0, .3)
             ),
             url('../../../images/cover/cover.jpg')
 }
@@ -42,23 +42,5 @@
 @media (max-width: 374px){
     .cover__container{
         height: 216px;
-    }
-}
-
-@media (min-width: 1024px){
-    .cover__container{
-        margin-bottom: 160px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-    .cover__container{
-        margin-bottom: 102px;
-    }
-}
-
-@media (max-width: 767px){
-    .cover__container{
-        margin-bottom: 64px;
     }
 }

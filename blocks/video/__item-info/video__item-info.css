@@ -4,7 +4,7 @@
     z-index: 3;
     display: grid;
     grid-template-rows: 3fr auto auto auto;
-    grid-template-columns: minmax( 256px, 583px);
+    grid-template-columns: minmax( 200px, 583px);
 }
 
 @media (min-width: 1025px){
