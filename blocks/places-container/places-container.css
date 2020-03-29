@@ -1,18 +1,18 @@
 @media (min-width: 1280px){
-    .places_container{
+    .places-container{
         margin-bottom: 60px;
     }
 }
 
 
 @media (min-width: 376px) and (max-width: 1279px){
-    .places_container{
+    .places-container{
         margin-bottom: 40px;
     }
 }
 
 @media (max-width: 375px){
-    .places_container{
+    .places-container{
         margin-bottom: 32px;
     }
 }

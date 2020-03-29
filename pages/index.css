@@ -20,14 +20,14 @@
 
 @import '../blocks/comments/comments.css';
 @import '../blocks/comment/comment.css';
-@import '../blocks/places_container/places_container.css';
+@import '../blocks/places-container/places-container.css';
 
 
 
 @import '../blocks/width-standart/width-standart.css';
 @import '../blocks/width-standart-plus/width-standart-plus.css';
-@import '../blocks/margin_places/margin_places.css';
-@import '../blocks/margin_intro/margin_intro.css';
+@import '../blocks/margin-places/margin-places.css';
+@import '../blocks/margin-intro/margin-intro.css';
 @import '../blocks/header-margin/header-margin.css';
-@import '../blocks/margin_blok_video_and_comments/margin_blok_video_and_comments.css';
-@import '../blocks/footer_container/footer_container.css';
+@import '../blocks/margin-blok-video-and-comments/margin-blok-video-and-comments.css';
+@import '../blocks/margin-footer/margin-footer.css';

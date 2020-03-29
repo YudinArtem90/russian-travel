@@ -5,6 +5,7 @@
     text-decoration: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 5px;
 }
 
 @media (min-width: 1280px){
@@ -22,11 +23,29 @@
 @media (min-width: 768px) and (max-width: 1023px){
     .video__item{
         height: 200px;
+        grid-template-columns: repeat(1, minmax( 288px, 450px));
     }
 }
 
-@media (min-width: 376px) and (max-width: 767px){
+
+@media (min-width: 425px) and (max-width: 767px){
     .video__item{
-        height: 300px;
+        height: 247px;
+        grid-template-columns: repeat(1, minmax( 288px, 452px));
     }
 }
+
+@media (min-width: 321px) and (max-width: 424px){
+    .video__item{
+        max-width: 343px;
+        height: 192px;
+    }
+}
+
+@media (max-width: 320px){
+    .video__item{
+        max-width: 288px;
+        height: 192px;
+    }
+}
+

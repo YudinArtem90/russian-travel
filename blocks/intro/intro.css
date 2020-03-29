@@ -7,3 +7,15 @@
 .intro{
     margin: auto;
 }
+
+@media (min-width: 1280px){
+    .intro{
+        max-width: 984px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+    .intro{
+        max-width: 928px;
+    }
+}
